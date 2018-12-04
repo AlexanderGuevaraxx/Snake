@@ -16,6 +16,14 @@ class objeto{
        }
     }
 }
+//**-****************************************************************COUNTER************************************************************************
+var n = 0;
+var l = document.getElementById("number");
+Window.setInterval(function(){
+  l.innerHTML = n;
+  n++;
+},1000);
+
 //**************************************************************** class Extender cola**************************************************************
 class Cola extends objeto{
   constructor(x,y){
